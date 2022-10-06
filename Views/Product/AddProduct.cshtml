@@ -1,0 +1,24 @@
+﻿@model StockControl.Models.ProductViewModel;
+
+@{
+    ViewData["Title"] = "Add Product";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/addproduct.css" />
+</head>
+
+<div class="div-container">
+    <form class="form-container" name="addProduct">
+        <label class="form-label">Product Name</label>
+        <input class="input-form" type="text" id="product-name" />
+        <label class="form-label">Product Price</label>
+        <input class="input-form" type="number" id="product-price" />
+        <label class="form-label">Select a product category</label>
+        <select class="select-category" id="select-category">
+        </select>
+        <button type="submit" class="form-button" id="form-button">Create a Product</button>
+    </form>
+</div>
+
+<script src="~/js/addProduct.js"></script>

@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Products";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/product.css" />
+</head>
+
+<div class="div-container">
+    <ul class="list-options">
+        <li>
+            <a class="product-link" asp-controller="Product" asp-action="AddProduct"><p>Add Product</p></a>
+        </li>
+        <li>
+            <a class="product-link" asp-controller="Product" asp-action="UpdateProduct"><p>Update Product</p></a>
+        </li>
+    </ul>
+</div>
+
+<script src="~/js/product.js"></script>

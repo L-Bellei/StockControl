@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Categories";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/category.css" />
+</head>
+
+<div class="container">
+    <div class="category-buttons">
+        <a class="category-link" asp-controller="Category" asp-action="AddCategory">Add Category</a>
+    </div>
+    <table class="table">
+        <thead class="table-head">
+            <tr>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Options</th>
+            </tr>
+        </thead>
+        <tbody class="table-body">
+        </tbody>
+    </table>
+</div>
+
+<script src="~/js/category.js"></script>

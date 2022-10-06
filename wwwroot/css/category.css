@@ -1,0 +1,39 @@
+﻿.category-buttons {
+    width: 70%;
+}
+
+.category-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    color: #333;
+    width: 30%;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: chartreuse;
+    transition: .2s;
+}
+
+    .category-link p {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .category-link:hover {
+        color: #fff;
+        text-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    }
+
+.edit-button {
+    font-weight: 500;
+    background-color: #67beff;
+    padding: 3px 6px;
+}
+
+.delete-button {
+    font-weight: 500;
+    background-color: #ff2e2e;
+    padding: 3px 6px;
+}
